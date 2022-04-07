@@ -1,0 +1,157 @@
+header{
+    border: 1px solid Black;
+  
+    position: relative;
+    padding-left: 3%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    background-image: url(file:///C:/Users/hp/Desktop/Maqquettage/aceuil.png);
+}
+.entete{
+    display: flex;
+    
+}
+.livraison{
+    position: absolute;
+    right: 5%;
+}
+.MENUS{
+    position: absolute;
+    right: 5%;
+  
+    text-decoratiOn: none;
+    
+}
+.ONGLETS{
+    color: black;
+}
+.BURGER1{
+    width: 100px;
+}
+.ISGOOD{
+    padding: 2%;
+    border: 1px dashed black;
+    height: 0%;
+    width: 37%;
+    margin-top: 10%;
+    font-size: 15px;
+}
+.flexburger{
+    display: flex;
+    
+    
+    
+}
+.BURGER1{
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+h1{
+    font-size: 120px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.week{
+    font-weight: bold;
+    font-size: 50px;
+}
+.galerydroit, .galerygauche{
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+.galery{
+    display: flex;
+    justify-content: center;
+    
+}
+.galerydroit{
+  
+    width: 30%;
+    width: 596px;
+    height: 420px;
+    background-image: url(file:///C:/Users/hp/Desktop/Maqquettage/burger2.jpg);
+}
+.galerygauche{
+    margin-left: 3%;
+    width: 596px;
+   
+  
+   
+}
+.galerygauche-haut{ 
+    border: 1px solid black;
+    margin-bottom: 1%;
+   width: 596px;
+   height: 192px;
+    background-image: url(file:///C:/Users/hp/Desktop/Maqquettage/burger3.jpg);
+}
+.galerygauche-bas{
+    border: 1px solid black;
+    width: 596px;
+    height: 192px;
+    background-image: url(file:///C:/Users/hp/Desktop/Maqquettage/burger4.jpg);
+    margin-top: 6%;
+    margin-bottom: 0%;
+}
+.tryit, .morefu, .moretaste, .fresh, .mostpopular{
+    display: block;
+    color: white;
+}
+.text{
+   margin-left: 10%;
+   margin-top: 5%;
+}
+.centre{
+    text-align: center;
+    margin-top: 5%;
+}
+.always{
+    
+    padding: 5.5px;
+    background-color: #fbb400;
+}
+.enjoy{
+    font-size: 50px;
+}
+.wrappedburger1, .wrappedburger2, .wrappedburger3 {
+    width:342px ;
+    height:271 ;
+    border: 1px SOLID black;
+   
+}
+.wrappedburgers{
+    display: flex;
+    text-align: center;
+}
+.wrappedburger{
+   
+    margin-left: 100px;
+
+}
+.section3{
+    align-items: center;
+}
+.wrappedburger1{
+    margin-right: 15%;
+}
+.wrappedburger3{
+      margin-left: 400px;
+}
+.wrappedburger2{
+    margin-left: 20px;
+}
+.lorembold{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+ button{
+     background-color: red;
+     color: aliceblue;
+     padding: 10px;
+     width: 150px;
+     font-weight: bolder;
+     font-size: 15px;
+ }
