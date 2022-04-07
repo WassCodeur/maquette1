@@ -117,7 +117,7 @@ h1{
 }
 .wrappedburger1, .wrappedburger2, .wrappedburger3 {
     width:342px ;
-    height:271 ;
+    height:271px ;
     border: 1px SOLID black;
    
 }
@@ -135,6 +135,7 @@ h1{
 }
 .wrappedburger1{
     margin-right: 15%;
+
 }
 .wrappedburger3{
       margin-left: 400px;
