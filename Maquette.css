@@ -165,14 +165,16 @@ h1{
  .wrapped{
      display: flex;
      margin-top: 20%;
+     border: 1px solid black;
+    
  }
  footer{
      border: 1px solid black;
      /*width: 1890px;
      height: 525px;*/
-     background-image: url(./un-plat-complet.jpg);
-     padding-top: 50px;
-     padding: 50px;
+     background: url(./un-plat-complet.jpg) no-repeat center/cover;
+     padding-top: 40px;
+     padding: 40px;
      
    
  }
@@ -246,4 +248,20 @@ h1{
  .joinline2{
    
      justify-content: center;
+ }
+ .border1 {
+     border: 1px solid black;
+    
+ }
+ .border2{
+     border: 1px solid black;
+     
+ }
+ .border3{
+    border: 1px solid black;
+ 
+
+ }
+ .INPUT{
+     display: flex;
  }
