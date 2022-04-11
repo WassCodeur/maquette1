@@ -175,17 +175,19 @@ h1{
      background: url(./un-plat-complet.jpg) no-repeat center/cover;
      padding-top: 40px;
      padding: 40px;
+     margin: 2%;
      
    
  }
  .wrappedtextphoto{
-    display: flex;
-    margin-top: 20%;
-    padding: 10px;
+   /*display: flex;*/
+   /* margin-top: 20%;*/
+   /* padding: 10px;
     border: 1px solid black;
     position: relative;
     height: 439px;
     box-shadow: 4px 5px 4px #efefef;
+    width: 100%;*/
    
  }
  .photoburgeragauche{
@@ -249,19 +251,51 @@ h1{
    
      justify-content: center;
  }
- .border1 {
+/*.premierecolone, .deuxiemecolone, .troisiemecolone{
      border: 1px solid black;
-    
- }
- .border2{
-     border: 1px solid black;
-     
- }
- .border3{
-    border: 1px solid black;
- 
-
- }
- .INPUT{
+ }*/
+ .form{
      display: flex;
+     border: 1px solid black;
+  
+     position: relative;
+     margin:5% ;
  }
+    
+ .troisiemecolone{
+    position: absolute;
+    top: 40%;
+    left: 89%;
+ }
+ .deuxiemecolone{
+    /*text-align: center;*/
+   
+     padding: 10%;
+     border: 1px solid black;
+ }
+ 
+.INPUT3, .INPUT4{
+   /* margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 20%;*/
+
+  
+}
+.INPUT1, .INPUT2, .INPUT5{
+ 
+   /* margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 20%;*/
+
+}
+.lin1, .lin2, .lin3 {
+    display: flex;
+}
+.INPUT2{
+   /* margin-left: 5%;*/
+}
+.section5{
+    padding-top: 40px;
+    padding: 40px;
+}
+}
