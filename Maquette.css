@@ -5,7 +5,7 @@ header{
     padding-left: 3%;
     padding-bottom: 10%;
     padding-top: 2%;
-    background-image: url(file:///C:/Users/hp/Desktop/Maqquettage/aceuil.png);
+    background-image: url(./aceuil.png);
 }
 .entete{
     display: flex;
@@ -18,9 +18,23 @@ header{
 .MENUS{
     position: absolute;
     right: 5%;
-  
-    text-decoratiOn: none;
     
+}
+button:hover{
+    color: bisque ;
+}
+a{
+    color: black;
+    text-decoratiOn: none;
+    margin-right: 10px;
+}
+a:active{
+    color: grey;
+    text-decoratiOn: none;
+}
+a:hover{
+    color: green;
+    text-decoratiOn: none;
 }
 .ONGLETS{
     color: black;
@@ -64,6 +78,7 @@ h1{
 .galery{
     display: flex;
     justify-content: center;
+    border: 1px SOLID black;
     
 }
 .galerydroit{
@@ -71,7 +86,7 @@ h1{
     width: 30%;
     width: 596px;
     height: 420px;
-    background-image: url(file:///C:/Users/hp/Desktop/Maqquettage/burger2.jpg);
+    background-image: url(./burger2.jpg);
 }
 .galerygauche{
     margin-left: 3%;
@@ -122,10 +137,10 @@ h1{
    
 }
 .wrappedburgers{
-    display: flex;
+  /*  display: flex;
     text-align: center;
     width: 100%;
-    border: 1px SOLID black;
+    border: 1px SOLID black;*/
 }
 .wrappedburger{
    
@@ -133,31 +148,29 @@ h1{
 
 }
 .section3{
-    align-items: center;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+    
 }
 .wrappedburger1{
-    margin-right: 15%;
+   
 
 }
 .wrappedburger3{
-      margin-left: 400px;
+      
 }
 .wrappedburger2{
-    margin-left: 20px;
-}
-.lorembold{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: large;
+   
 }
  button{
      background-color: red;
-     color: aliceblue;
-     padding: 10px;
-     width: 150px;
-     font-weight: bolder;
-     font-size: 15px;
+     color: white;
+    padding: 2%;
  }
+     
  .photoburgeragauche{
      width: 663px;
      height: 439px;
@@ -174,8 +187,11 @@ h1{
      height: 525px;*/
      background: url(./un-plat-complet.jpg) no-repeat center/cover;
      padding-top: 40px;
-     padding: 40px;
-     margin: 2%;
+     padding: 40px
+     ;
+     margin-left: 2%;
+     margin-right: 2%;
+     margin-top: 0%;
      
    
  }
@@ -190,15 +206,32 @@ h1{
     width: 100%;*/
    
  }
- .photoburgeragauche{
+ .boujour{
+     
+     height: 439px;
+     width: 50%;
+     background: url('./burgeravec salad sur un plateau.jpg') no-repeat center/cover;
+     border: 1px solid black;
+
+ }
+  
+ .text2{
+     padding-right: 10%;
+    
+     height: 439px;
+     width: 50%;
+ }
+ /*.photoburgeragauche{
      margin-right: 0%;
      border: 1px solid black;
      position: absolute;
      left: 1100px;
- }
+ }*/
  .points{
      display: flex;
-     margin-top: 45%;
+     margin-top: 35%;
+    
+     
  }
  .point1, .point2, .point3{
      border: 1px none black;
@@ -222,7 +255,14 @@ h1{
  }
  .textwrapped{
      margin-top: 45px;
- }
+     width: auto;
+     display: flex;
+     height: 439px;
+     border: 1px solid rgb(209, 209, 209);
+     box-shadow: 10px 10px 10px bisque;
+     margin: 5%;
+     
+  }
  .line2{
      display: flex;
      color: white;
@@ -257,7 +297,6 @@ h1{
  .form{
      display: flex;
      border: 1px solid black;
-  
      position: relative;
      margin:5% ;
  }
@@ -265,12 +304,12 @@ h1{
  .troisiemecolone{
     position: absolute;
     top: 40%;
-    left: 89%;
+    right: 89%;
  }
  .deuxiemecolone{
     /*text-align: center;*/
    
-     padding: 10%;
+     
      border: 1px solid black;
  }
  
@@ -297,5 +336,4 @@ h1{
 .section5{
     padding-top: 40px;
     padding: 40px;
-}
 }
