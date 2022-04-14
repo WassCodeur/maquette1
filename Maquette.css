@@ -297,25 +297,26 @@ h1{
  .section5{
      display: flex;
      border: 1px solid black;
-     position: relative;
+    
      margin:5% ;
  }
  .form{
      display: flex;
-    
+     position: relative;
    
  }
  .premierecolone{
      background-color: red;
+    
  }
     
  .troisiemecolone{
-   background-color: #fbb400;
+   
    position: absolute;
-   left: 60%;
+   left: 60%; 
   margin-left: 25%;
    padding: 0%;
-   margin-top: 20%;
+   margin-top: 25%;
 
   
    
@@ -323,8 +324,7 @@ h1{
  .deuxiemecolone{
     /*text-align: center;*/
     background-color: blue;
-    padding: 20%;
-   
+  
      
      
  }
