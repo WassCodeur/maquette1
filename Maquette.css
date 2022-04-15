@@ -36,42 +36,43 @@ a:active{
     text-decoratiOn: none;
 }
 a:hover{
-    color: green;
+    color: red;
     text-decoratiOn: none;
 }
 .ONGLETS{
     color: black;
 }
 .BURGER1{
-    width: 100px;
+    width: 150px;
+    position: absolute;
+    left: 56%;
+    top: 30%;
+ 
 }
 .ISGOOD{
     padding: 2%;
     border: 1px dashed black;
     height: 0%;
-    width: 37%;
+    width: 25%;
     margin-top: 10%;
     font-size: 15px;
+    color: #3d2616;
 }
 .flexburger{
-    display: flex;
-    
-    
+    display: flex;    
     
 }
-.BURGER1{
-    position: absolute;
-    left: 55%;
-    top: 35%;
-}
+
 h1{
     font-size: 120px;
     margin-bottom: 0%;
     margin-top: 0%;
+    color: #3d2616;
 }
 .week{
     font-weight: bold;
     font-size: 50px;
+    color: #3d2616;
 }
 .galerydroit, .galerygauche{
     border: 1px solid black;
@@ -120,31 +121,31 @@ h1{
 .text{
    margin-left: 10%;
    margin-top: 5%;
+   color: #3d2616;
 }
 .centre{
     text-align: center;
     margin-top: 5%;
+    color: #3d2616;
 }
 .always{
     
     padding: 5.5px;
     background-color: #fbb400;
+    color: #3d2616;
 }
 .enjoy{
     font-size: 50px;
+    color: #3d2616;
 }
 .wrappedburger1, .wrappedburger2, .wrappedburger3 {
     width:342px ;
     height:271px ;
     border: 1px SOLID black;
+    color: #3d2616;
    
 }
-.wrappedburgers{
-  /*  display: flex;
-    text-align: center;
-    width: 100%;
-    border: 1px SOLID black;*/
-}
+
 .wrappedburger{
    
     margin-left: 100px;
@@ -156,22 +157,18 @@ h1{
   display: flex;
   justify-content: center;
   text-align: center;
+  color: #3d2616;
     
 }
-.wrappedburger1{
-   
 
-}
-.wrappedburger3{
-      
-}
-.wrappedburger2{
-   
-}
- button{
+button{
      background-color: red;
      color: white;
-    padding: 2%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    margin: 10px;
+    font-size: 18px;
  }
      
  .photoburgeragauche{
@@ -198,17 +195,7 @@ h1{
      
    
  }
- .wrappedtextphoto{
-   /*display: flex;*/
-   /* margin-top: 20%;*/
-   /* padding: 10px;
-    border: 1px solid black;
-    position: relative;
-    height: 439px;
-    box-shadow: 4px 5px 4px #efefef;
-    width: 100%;*/
-   
- }
+
  .boujour{
      
      height: 439px;
@@ -264,6 +251,7 @@ h1{
      border: 1px solid rgb(209, 209, 209);
      box-shadow: 10px 10px 10px bisque;
      margin: 5%;
+     color: #3d2616;
      
   }
  .line2{
@@ -297,138 +285,62 @@ h1{
 /*.premierecolone, .deuxiemecolone, .troisiemecolone{
      border: 1px solid black;
  }*/
- .section5{
+/* .section5{
      display: flex;
      border: 1px solid black;
      position: relative;
      margin:5% ;
+ }*/
+ .TABLE{
+     display: flex;
+     border: 1px solid black;
+     position: relative;
+     margin: 40px;
+ }
+ .wrapped_plat{
+     position: absolute;
+     left: 85%;
+     top: 40px;
+ }
+
+ .wrapped_burger{
+     position: absolute;
+     bottom: 140px;
+     right: 1500px;
+    
+ }
+ .wrappe_tchetchop{
+   margin-left: 20%;
+   margin-bottom: 0px;
+ 
+ }
+ .input-rows{
+     display: flex;
+    
+ }
+ input {
+     border: 1px solid gray;
+     border-radius: 5PX;
+     margin: 10px;
+     width: 420px;
+     height: 55px;
+ }
+ .boutton{
+     border: 1PX solid gray;
+     border-radius: 5PX;
+     margin: 9px;
+    background-color:red;
+    width: 430px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: larger;
+    color: #efefef;
  }
  .form{
-     display: flex;
-
-   
- }
- .premierecolone{
-     position: absolute;
-     bottom: 55%;
-     right: 85%;
-     border: 1px solid black;
-     padding: 0%;
-
-    
- }
-    
- .troisiemecolone{
-   
    position: absolute;
-   left: 63%; 
-   top: 30%;
-   margin-right: 0%;
-  margin-left: 25%;
-   padding: 0%;
-   border: 1px solid black;
-   
+   left: 30%;
+   text-align: center;
+   margin-top: 100px;
  }
- .deuxiemecolone{
-    text-align: center;
-   border: 1px solid black;
-   padding-left: 250%;
-   padding-right: 150%;
-    margin-left: 0%;
-    margin-right: 0%;
     
-    position: relative;  
-      
- }
- .ketchope{
-   margin-left: -450%;
- }
- .formtext{
-     
-    /* border: 1px SOLID black;*/
-     position: absolute;
-     left: 25%;
-     top: 20%;
-   
-     
- }
- .lin1{
-     margin-top: 15%;
-   
- }
- 
-{
-   margin-top: 5%; 
-   margin-left: 10%;
-   padding-left: 59%;
-   padding-right: 50%;
-   padding-top: 10%;
 
-   
-  
-}
-.BOOK{
-    border: 1px solid black;
-    margin-top: 2%;
-    width: 100%;
-    padding-left: 25%;
-    padding-top: 0%;
-   margin-left: 20%;
-   margin-right: 10%;
-    position: absolute;
-    left: 10%;
-    font-size: x-large;
-    word-spacing: 10px;
-    font-weight: bolder;
-}
-.RESERVATION{
-    margin-left: 50%;
-    border: 1px solid black;
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-top: 5%;
-
-}
-/* {
-    margin-top: 5%;
-     margin-left: 10%;
-   padding-right: 60%;
-   padding-top: 0%;
-   border: 1px solid rgb(31, 31, 31);
-   border-radius: 5px;
-
-}*/
-.button{
-    margin-top: 5%;
-    margin-left: 10%;
-   /*padding-left: 50%;*/
-  /* padding-right: 100%;*/
-  font-size: large;
-   border: 1px solid rgb(31, 31, 31);
-   border-radius: 5px;
-
-   ;
-
-}
-.INPUT1, .INPUT2,  .INPUT4, .INPUT3, .INPUT5{
- 
-    margin-top: 5%;
-     margin-left: 10%;
-    padding-right: 60%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border: 1px solid rgb(31, 31, 31);
-    border-radius: 5px;
-
-}
-.lin1, .lin2, .lin3 {
-    display: flex;
-}
-.INPUT2{
-   /* margin-left: 5%;*/
-}
-.section5{
-    padding-top: 40px;
-    padding: 40px;
-}
