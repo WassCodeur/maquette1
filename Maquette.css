@@ -1,18 +1,30 @@
 header{
-    border: 1px solid Black;
+   /* border: 1px solid Black;*/
   
     position: relative;
     padding-left: 3%;
     padding-bottom: 10%;
     padding-top: 2%;
     background-image: url(./aceuil.png);
+
+}
+.BURGER{
+    font-size: 150px;
+    font-family: 'AlfaSlabOne-Regular.ttf';
+    color: #3d2616;
+    text-shadow: 4px 4px 4px white;
+
+}
+.week{
+    font-family: 'AlfaSlabOne-Regular.ttf';
+    text-shadow: 4px 4px 4px white;
 }
 .entete{
     display: flex;
     
 }
 body{
-    border: 1px solid black;
+   /* border: 1px solid black;*/
 }
 .livraison{
     position: absolute;
@@ -29,7 +41,8 @@ button:hover{
 a{
     color: black;
     text-decoratiOn: none;
-    margin-right: 10px;
+    margin-right: 30px;
+    font-family:'BebasNeue-Regular';
 }
 a:active{
     color: grey;
@@ -57,6 +70,7 @@ a:hover{
     margin-top: 10%;
     font-size: 15px;
     color: #3d2616;
+    
 }
 .flexburger{
     display: flex;    
@@ -75,14 +89,14 @@ h1{
     color: #3d2616;
 }
 .galerydroit, .galerygauche{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-top: 5%;
 }
 
 .galery{
     display: flex;
     justify-content: center;
-    border: 1px SOLID black;
+   /* border: 1px SOLID black;*/
     
 }
 .galerydroit{
@@ -94,20 +108,17 @@ h1{
 }
 .galerygauche{
     margin-left: 3%;
-    width: 596px;
-   
-  
-   
+    width: 596px;   
 }
 .galerygauche-haut{ 
-    border: 1px solid black;
+   /* border: 1px solid black;*/
     margin-bottom: 1%;
    width: 596px;
    height: 192px;
     background-image: url(./burger3.jpg);
 }
 .galerygauche-bas{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 596px;
     height: 192px;
     background-image: url(./burger4.jpg);
@@ -141,7 +152,7 @@ h1{
 .wrappedburger1, .wrappedburger2, .wrappedburger3 {
     width:342px ;
     height:271px ;
-    border: 1px SOLID black;
+   /* border: 1px SOLID black;*/
     color: #3d2616;
    
 }
@@ -153,7 +164,7 @@ h1{
 }
 .section3{
   width: 100%;
-  border: 1px solid black;
+ /* border: 1px solid black;*/
   display: flex;
   justify-content: center;
   text-align: center;
@@ -161,9 +172,9 @@ h1{
     
 }
 
-button{
-     background-color: red;
-     color: white;
+.boutton1{
+    background-color: red;
+    color: white;
     padding-left: 20px;
     padding-right: 20px;
     height: 35px;
@@ -178,11 +189,12 @@ button{
  .wrapped{
      display: flex;
      margin-top: 20%;
-     border: 1px solid black;
+     /*border: 1px solid black;*/
     
  }
+ /*pied de page*/
  footer{
-     border: 1px solid black;
+    /* border: 1px solid black;*/
      /*width: 1890px;
      height: 525px;*/
      background: url(./un-plat-complet.jpg) no-repeat center/cover;
@@ -207,26 +219,21 @@ button{
   
  .text2{
      padding-right: 10%;
-    
+     margin-left: 20px;
      height: 439px;
      width: 50%;
  }
- /*.photoburgeragauche{
-     margin-right: 0%;
-     border: 1px solid black;
-     position: absolute;
-     left: 1100px;
- }*/
+
  .points{
      display: flex;
-     margin-top: 35%;
+     margin-top: 29%;
     
      
  }
  .point1, .point2, .point3{
      border: 1px none black;
      border-radius: 50%;
-     padding: 5px;
+     padding: 8px;
  }
 .point1{
     background-color: #fbb400;
@@ -238,17 +245,23 @@ button{
  }
  .DISCOVER{
      font-weight: lighter;
+     margin-left: 9px;
  }
  .events{
      font-weight: bolder;
-     font-size: x-large;
+     font-size: xx-large;
+     display: block;
+     margin-bottom: 20px;
+     margin-left: 9px;
+
+
  }
  .textwrapped{
      margin-top: 45px;
      width: auto;
      display: flex;
      height: 439px;
-     border: 1px solid rgb(209, 209, 209);
+     /*border: 1px solid rgb(209, 209, 209);*/
      box-shadow: 10px 10px 10px bisque;
      margin: 5%;
      color: #3d2616;
@@ -267,35 +280,41 @@ button{
  .networksocial{
      margin-left: 50%;
      display: flex;
+    
  }
 .joinline2{
     margin-left: 30%; 
 }
  .insta, .face, .tweet{
      margin-right: 5px;
+  
  }
  .map{
-     margin-bottom: 7px;
-     align-items: center;
+     margin-bottom: 20px;
+     display: flex;
+     
+     justify-content: space-between;
+   
+ }  
+ .texte{
+     margin-left: 30px;
+ }             
+ .mail{
+    display: flex;
+   
+
  }
  .joinline2{
-   
-     justify-content: center;
+  
  }
-/*.premierecolone, .deuxiemecolone, .troisiemecolone{
-     border: 1px solid black;
- }*/
-/* .section5{
-     display: flex;
-     border: 1px solid black;
-     position: relative;
-     margin:5% ;
- }*/
+
  .TABLE{
      display: flex;
-     border: 1px solid black;
+     /*border: 1px solid black;*/
      position: relative;
      margin: 40px;
+     color: #3d2616;
+     overflow: hidden;
  }
  .wrapped_plat{
      position: absolute;
@@ -341,6 +360,15 @@ button{
    left: 30%;
    text-align: center;
    margin-top: 100px;
+   color: #3d2616;
  }
-    
+@font-face {
+    font-family: 'AlfaSlabOne-Regular.ttf';
+    src: url('./AlfaSlabOne-Regular.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family:'BebasNeue-Regular';
+    src: url('./BebasNeue-Regular.otf');
+}
 
